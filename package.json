@@ -1,9 +1,10 @@
 {
   "name": "web-module",
   "version": "0.0.1",
-  "description": "HCB web api",
+  "description": "Final DB project",
   "scripts": {
-    "dev": "pm2 start ./ecosystem.config.js",
+    "dev": "pm2 start ./ecosystem.config.js && npm run logs",
+    "logs": "pm2 logs --merge-logs",
     "start": "pm2 start ./ecosystem.config.js --env production",
     "restart": "pm2 startOrRestart ./ecosystem.config.js --update-env",
     "stop": "pm2 stop ./ecosystem.config.js",
@@ -30,7 +31,7 @@
     "pm2": "^4.4.0"
   },
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "find": "^0.3.0",
     "formidable": "^1.2.2",

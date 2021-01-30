@@ -1,10 +1,8 @@
 'use strict'
 
-const dashboardUsersService = require('./core/users/config')
-
-const mobileFaq = require('./core/mobile-faq/config')
+const users = require('./core/users/config')
 module.exports = {
   apps: [
-    
+    users
   ]
 }
