@@ -2,15 +2,14 @@
 
 const { MoleculerError } = require("moleculer").Errors;
 const bcrypt = require('bcrypt')
-const DbService = require("moleculer-db");
-const dropModel = require('../../mixin/mongoose')
 const jwt = require("jsonwebtoken")
 const MongooseAdapter = require('moleculer-db-adapter-mongoose')
 const User = require('./schemas/User')
 module.exports = {
-    name: 'users.authorization',
+    name: 'users.action',
     version: 1,
-    mixins: [DbService,dropModel],
-    adapter: new MongooseAdapter(process.env.USER_SERVICE_ADAPTER),
     model: User,
+    actions: {
+        
+    }
 }

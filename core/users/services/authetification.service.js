@@ -5,7 +5,7 @@ const { MoleculerError } = require('moleculer').Errors
 
 module.exports = { 
     name: 'users.authetification',
-    varsion: 1,
+    version: 1,
     actions: {
         login: {
             params: {
