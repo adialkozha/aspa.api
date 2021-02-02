@@ -10,7 +10,21 @@ const User = require('./schemas/User')
 module.exports = {
     name: 'users.authorization',
     version: 1,
-    mixins: [DbService,dropModel],
+    mixins: [DbService, dropModel],
     adapter: new MongooseAdapter(process.env.USER_SERVICE_ADAPTER),
     model: User,
+    hooks: {
+        before: {
+            create: function (ctx) {
+                ctx.params.password = this.hashPassword(ctx.params.password)
+            }
+        },
+    },
+    methods: {
+        hashPassword(password) {
+            if (password) {
+                return bcrypt.hashSync(password, 10)
+            }
+        }
+    }
 }

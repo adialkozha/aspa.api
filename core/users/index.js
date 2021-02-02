@@ -95,7 +95,7 @@ const config = {
   internalServices: true,
   internalMiddlewares: true,
 
-  hotReload: process.env.HOT_RELOAD,
+  hotReload: true, // toDo: починить env
 
   replCommands: [],
 
