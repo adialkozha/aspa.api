@@ -26,4 +26,4 @@ We chose a web application for the theme of the project. Our stack for implement
 - MongoDB
 ```
 
-
+!!!Later we will get to know them in more detail. (:
