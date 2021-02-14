@@ -23,7 +23,6 @@ We chose a web application for the theme of the project. Our stack for implement
 ```bash
 - MoleculerJS
 - VueJS
-- NodeJS
 - MongoDB
 ```
 
