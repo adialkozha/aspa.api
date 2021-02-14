@@ -19,6 +19,7 @@ We have chosen a medium-sized project that will perform the following functions:
 - to find nearest restaurants
 - will show is the chosen restaurant open or closed
 ```
+We chose a web application for the theme of the project. Our stack for implementing is NestJS + VueJS + MongoDB or Moleculer + VueJS + MongoDB. MongoDB is the perfect choice for working with NestJs and MoleculerJS. We chose MongoDB because it scales easily and is very flexible to use. The server language will be in NodeJs. We use NodeJS because it's easy to set up a server for a web application also widely used among the developers. Also makes it possible to use the same language on the client and server. We are thinking of making a microservice architecture to make it easier to scale the project.
 
 
 
