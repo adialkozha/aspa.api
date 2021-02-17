@@ -19,11 +19,10 @@ We have chosen a medium-sized project that will perform the following functions:
 - to find nearest restaurants
 - will show is the chosen restaurant open or closed
 ```
-We chose a web application for the theme of the project. Our stack for implementing are Moleculer + VueJS + MongoDB. MongoDB is the perfect choice for working with MoleculerJS. We chose MongoDB because it scales easily and is very flexible to use. We use MoleculerJS because it's easy to set up a server for a web application also widely used among the developers. Also makes it possible to use the same language on the client and server. We are thinking of making a microservice architecture to make it easier to scale the project.
+We chose a web application for the theme of the project. Our stack for implementing are Moleculer + VueJS + MongoDB. MongoDB is the perfect choice for working with MoleculerJS. We chose -----DB(мы еще не выбрали). We use MoleculerJS because it's easy to set up a server for a web application also widely used among the developers. Also makes it possible to use the same language on the client and server. We are thinking of making a microservice architecture to make it easier to scale the project.
 ```bash
 - MoleculerJS
 - VueJS
-- MongoDB
 ```
 
 !!!Later we will get to know them in more detail. (:
