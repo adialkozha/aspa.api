@@ -28,9 +28,9 @@ Stack:
 - VueJS / NuxtJS
 - MySQL
 ```
-Dataset query URL: https://query.data.world/s/uegzk3jnk3y2ufdfrhkmrnkckej2zq
+[Dataset](https://query.data.world/s/uegzk3jnk3y2ufdfrhkmrnkckej2zq)
 
-Dataset URL: https://data.world/promptcloud/amazon-product-dataset-2020
+Dataset docs URL: https://data.world/promptcloud/amazon-product-dataset-2020
 
 Dataset size: 18.71 MB
 Structure of dataset
