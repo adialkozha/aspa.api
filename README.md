@@ -18,6 +18,7 @@ We have chosen a medium-sized project that will perform the following functions:
 - View recommended items
 - Add to wishlist, also they can remove
 - Purchase the selected items
+- Admin can add, remove: products, users and shippers
 ```
 We chose a web application for the theme of the project. For now we don't chose what kind of tools we will use for DB, Server and so on. Within the two day we will correct this uncertainty. 
 ```bash
