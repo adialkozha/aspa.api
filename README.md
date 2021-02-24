@@ -72,7 +72,7 @@ Structure of dataset
 3. What if the customer is not sure about the purchase and wants to see what he is paying for?
 4. If the client can not decide between the products, what can the site offer?
 5. What are the goals of this project?
-6. The client does not know what product he wants, but knows the category, how can he find a suitable category if the client's description differs from the description on the site?(Prints CELLPHONE when on the website it is smartphone)
+6. The client does not know what product he wants, but knows the category, how can he find a suitable category if the client's description differs from the description on the site?(Prints CELLPHONE when on the website it is SMARTPHONE)
 7. Why is this project considered relevant?
 8. Sometimes users are looking for information not about the product, but about the store, deliveries, what happens in this case?
 9. Why does the store have such a direction?
