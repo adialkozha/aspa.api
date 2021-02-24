@@ -28,6 +28,8 @@ Stack:
 - VueJS / NuxtJS
 - MySQL
 ```
+Dataset URL: https://query.data.world/s/uegzk3jnk3y2ufdfrhkmrnkckej2zq
+Dataset size: 18.71 MB
 Structure of dataset
 ```
 - uniq_id
