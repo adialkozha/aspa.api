@@ -8,21 +8,25 @@ In this ReadMe will be introduced detailed discription of all process of impleme
 * Bayaliyev Bakdaulet
 
 ## Project Description
-During this semester, our team is going to implement a website that will serve online users with shopping.
+During this semester, our team is going to implement a website that will help people to see and find out the details of the product in advance and if the customer wants to buy it they can easily add it to their shopping cart and then get it. Why do we need this website? Now in modern society, it is fashionable to offer ideas that make life easier for people. This is what immediately comes to mind of any person before creating something. In our tern, our project will prevent such disadvantages in the time-consuming trips to stores where there may not even be the thing you need, or even cases where you seem to have purchased the necessary product, but it turned out to be the wrong size, for example, these problems can be forgotten. With this site, users will be able to quickly and in one place solve the problem of finding the things they need for some specific purpose.
 
 We have chosen a medium-sized project that will perform the following functions:
 ```bash
+- Authentication and authorization
 - Add to basket
 - Remove from basket
 - Search from the catalog
 - View recommended items
-- Add to wishlist, also they can remove
+- Ordering
 - Purchase the selected items
 - Admin can add, remove: products, users and shippers
 ```
-We chose a web application for the theme of the project. For now we don't chose what kind of tools we will use for DB, Server and so on. Within the two day we will correct this uncertainty. 
-```bash
-- MSsql
+We chose a web application for the theme of the project. Our stack for implementing are Moleculer + VueJS + MySQL. MySQL is the perfect choice for working with MoleculerJS. We chose MySQL. We use MoleculerJS because it's easy to set up a server for a web application also widely used among the developers. Also makes it possible to use the same language on the client and server. We are thinking of making a microservice architecture to make it easier to scale the project.
+Stack:
+```
+- MoleculerJS
+- VueJS / NuxtJS
+- MySQL
 ```
 Structure of dataset
 ```
