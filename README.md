@@ -41,7 +41,6 @@ Structure of dataset
 - selling_price
 - quantity
 - model_number
-- model_number
 - about_product
 - product_specification
 - technical_details
@@ -64,20 +63,21 @@ Structure of dataset
 
 ## Questions:
 1. Can the user have an account and be sure that the password will remain confidential?
-2. What if the product is popular enough and there are too many search results?
-3. What if the customer is not sure about the purchase and wants to see what he is paying for?
-4. If the client can not decide between the products, what can the site offer?
-5. What are the goals of this project?
-6. The client does not know what product he wants, but knows the category, how can he find a suitable category if the client's description differs from the description on the site?(Prints CELLPHONE when on the website it is SMARTPHONE)
-7. Why is this project considered relevant?
-8. Sometimes users are looking for information not about the product, but about the store, deliveries, what happens in this case?
-9. Why does the store have such a direction?
-10. How can you help people who do not know which product is better and which is not?
-11. What happens when errors occur? Does it expect a fatal crash, with an unexpected request?
-12. How can the user understand how to use the site?
-13. What caused the complications? Is it possible to make the site better?How?
-14. How does this work correspond to the tasks set?
-15. How will the payment for the goods be processed?
+2. Can we filter the goods by the rating of the product?
+3. What if the product is popular enough and there are too many search results?
+4. What if the customer is not sure about the purchase and wants to see what he is paying for?
+5. If the client can not decide between the products, what can the site offer?
+6. What are the goals of this project?
+7. The client does not know what product he wants, but knows the category, how can he find a suitable category if the client's description differs from the description on the site?(Prints CELLPHONE when on the website it is SMARTPHONE)
+8. Why is this project considered relevant?
+9. Sometimes users are looking for information not about the product, but about the store, deliveries, what happens in this case?
+10. Why does the store have such a direction?
+11. How can you help people who do not know which product is better and which is not?
+12. What happens when errors occur? Does it expect a fatal crash, with an unexpected request?
+13. How can the user understand how to use the site?
+14. What caused the complications? Is it possible to make the site better?How?
+15. How does this work correspond to the tasks set?
+16. How will the payment for the goods be processed?
 
 
 !!!Later we will get to know them in more detail. (:
