@@ -22,6 +22,7 @@ We have chosen a medium-sized project that will perform the following functions:
 - Admin can add, remove: products, users and shippers
 ```
 We chose a web application for the theme of the project. Our stack for implementing are Moleculer + VueJS + MySQL. MySQL is the perfect choice for working with MoleculerJS. We chose MySQL. We use MoleculerJS because it's easy to set up a server for a web application also widely used among the developers. Also makes it possible to use the same language on the client and server. We are thinking of making a microservice architecture to make it easier to scale the project.
+
 Stack:
 ```
 - MoleculerJSs
@@ -30,6 +31,7 @@ Stack:
 ```
 Dataset size: 18.71 MB
 Structure of dataset
+
 ```
 - uniq_id
 - product_name
@@ -60,6 +62,21 @@ Structure of dataset
 - size_quantity_variant
 - product_description
 ```
+We also created additional 10 tables (which you can see on our ER diagram) They are closely interconnected, thereby simplifying the task for developers. They are:
+1) Category
+2) ProductCategory
+3) ProductReview
+4) NewProductSlider
+5) Cart
+6) CartItem
+7) Order_Table
+8) OrderItem
+9) User
+10) Transaction_Table
+
+![ASPA-ER-diagram](https://user-images.githubusercontent.com/44058615/110231980-fd5a7680-7f44-11eb-8b82-d8b975a419ca.png)
+
+
 
 ## Questions:
 1. Can the user have an account and be sure that the password will remain confidential?
