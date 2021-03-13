@@ -86,8 +86,8 @@ We also created additional 10 tables (which you can see on our ER diagram) They 
 5. If the client can not decide between the products, what can the site offer?
 6. What is the average rating of a specific good in the list of the products?
 7. What is the total price of all goods selected by the customer?
-8. Find members who bought products from the laptop and toys category?
-9. Find members who didn't buy products from the 'Toys & Games'  category?
+8. Find members who bought products from the 'Baby products' or 'Toys & Games'  category?
+9. Find members who didn't buy products from the 'Toys & Games' category?
 10. .
 11. How can you help people who do not know which product is better and which is not?
 12. .
