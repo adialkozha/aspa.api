@@ -90,10 +90,10 @@ We also created additional 10 tables (which you can see on our ER diagram) They 
 9. Find members who didn't buy products from the 'Toys & Games' category?
 10. The customer wants to change the category of Toys & Games to baby products.
 11. How can you help people who do not know which product is better and which is not?
-12. .
-13. .
-14. .
-15. How will the payment for the goods be processed?
+12. Show the total amount of products in the category 'Electronics'
+13. The vendedor wants to insert new product.
+14. The customer wants to remove the product from the cart. 
+15. The customer wants to filter the product by desc order.
 
 
 !!!Later we will get to know them in more detail. (:
