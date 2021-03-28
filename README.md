@@ -76,7 +76,6 @@ Roles: --This table records roles of users
 
 ```
 
-https://youtu.be/<https://youtube.com/watch?v=dYQW7dXVd7E&feature=share>
 [![Here the demo video of the website](https://youtube.com/watch?v=dYQW7dXVd7E&feature=share)
 
 
