@@ -50,7 +50,7 @@ Stack:
 
 ![ASPA-UseCase-UML](https://user-images.githubusercontent.com/44058615/112758366-d822ca80-900f-11eb-8363-62ba82b57b0c.jpg)
 
-### Questions:
+## Questions:
 1. Can the user have an account and be sure that the password will remain confidential?
 2. Can we filter the goods by the rating of the product?
 3. What if the product is popular enough and there are too many search results?
@@ -107,7 +107,13 @@ Roles: --This table records roles of users
 
 ```
 
+### ER-diagram 
+This ER-diagram was constructed in the MSsql platform
+![ASPA-ER-diagram](https://user-images.githubusercontent.com/44058615/112758441-3d76bb80-9010-11eb-85d2-dfb34bca0dd4.jpg)
+
+
+https://youtube.com/watch?v=dYQW7dXVd7E&feature=share
 
 !!!Later we will get to know them in more detail. (:
 
-
+##Data Tables' Description
