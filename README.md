@@ -145,5 +145,6 @@ The method for deleting from the cart:
 ![photo_2021-03-28_22-45-32](https://user-images.githubusercontent.com/44058615/112760032-5fc00780-9017-11eb-9fe0-723a65b9c7d1.jpg)
 
 
-
+The method for ordering goods:
+![photo_2021-03-28_22-47-40](https://user-images.githubusercontent.com/44058615/112760096-9c8bfe80-9017-11eb-9888-eda7f13321c3.jpg)
 
