@@ -79,15 +79,12 @@ Roles: --This table records roles of users
 
 ```
 
-### ER-diagram 
-This ER-diagram was constructed in the MSsql platform
-![ASPA-ER-diagram](https://user-images.githubusercontent.com/44058615/112758441-3d76bb80-9010-11eb-85d2-dfb34bca0dd4.jpg)
 
 
 
-https://youtube.com/watch?v=dYQW7dXVd7E&feature=share
-
+## Project Use-Case diagram and questions over the data
 ### UseCase diagram
+
 ![ASPA-UseCase-UML](https://user-images.githubusercontent.com/44058615/112758366-d822ca80-900f-11eb-8363-62ba82b57b0c.jpg)
 
 ## Questions:
@@ -107,5 +104,10 @@ https://youtube.com/watch?v=dYQW7dXVd7E&feature=share
 14. The customer wants to remove the product from the cart. 
 15. The customer wants to filter the product by desc order.
 
+##  Data modeling and database design
+DDL and DML queries are uploaded above.
+
 
 !!!Later we will get to know them in more detail. (:
+
+##Data Tables' Description
