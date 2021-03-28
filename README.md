@@ -111,6 +111,25 @@ Roles: --This table records roles of users
 This ER-diagram was constructed in the MSsql platform
 ![ASPA-ER-diagram](https://user-images.githubusercontent.com/44058615/112758441-3d76bb80-9010-11eb-85d2-dfb34bca0dd4.jpg)
 
-!!!Later we will get to know them in more detail. (:
+
+## User-interface implementation and connection
+This is the main page of the Online e-Shop. At the above of the page there is a menu
+![main-page](https://user-images.githubusercontent.com/44058615/112759430-c2fc6a80-9014-11eb-825a-306e62c29d44.jpg)
+
+
+To use some of the methods in the controller, you need to be authorized. After we go to the site, we have a link to the user page, where the information about the user is located. If the role of the admin then overrides the admin page (the admin has special features).
+![photo_2021-03-28_22-32-37](https://user-images.githubusercontent.com/44058615/112759596-84b37b00-9015-11eb-8059-f94b8e372ff5.jpg)
+![photo_2021-03-28_22-32-35](https://user-images.githubusercontent.com/44058615/112759597-85e4a800-9015-11eb-9d77-86246576d046.jpg)
+![photo_2021-03-28_22-32-38](https://user-images.githubusercontent.com/44058615/112759598-85e4a800-9015-11eb-8598-dd272f372110.jpg)
+
+
+The method for displaying products and sorting them:
+![photo_2021-03-28_22-33-18](https://user-images.githubusercontent.com/44058615/112759614-99900e80-9015-11eb-817e-954655ef765f.jpg)
+![photo_2021-03-28_22-33-41](https://user-images.githubusercontent.com/44058615/112759624-a7de2a80-9015-11eb-897f-4785d0c425e7.jpg)
+
+The method for adding a product: 
+![photo_2021-03-28_22-34-27](https://user-images.githubusercontent.com/44058615/112759643-c8a68000-9015-11eb-90db-9a158e6775be.jpg)
+![photo_2021-03-28_22-34-28](https://user-images.githubusercontent.com/44058615/112759642-c6442600-9015-11eb-9bbc-a234532ba477.jpg)
+
 
 
