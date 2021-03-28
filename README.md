@@ -32,6 +32,8 @@ By default, Microsoft currently provides a number of built-in providers: for wor
 
 Bootstrap is a free open source CSS framework for flexible front-end web development for mobile devices. It contains CSS and JavaScript based design templates for typography, forms, buttons, navigation and other interface components.
 
+In MVC, models are represented by two main types: view models, which are used by views to display and transfer data, and domain models, which describe data manipulation logic.
+
 Stack:
 ```
 - ASP.NET CORE 
@@ -39,6 +41,7 @@ Stack:
 - Entity framework
 - Bootstrap 4
 ```
+
 There are a total of 6 tables in the project:
 ```
 Products: --This table records products
@@ -75,8 +78,14 @@ Roles: --This table records roles of users
 -Name
 
 ```
+
+
+
+
 https://youtube.com/watch?v=dYQW7dXVd7E&feature=share
 
+### UseCase diagram
+![ASPA-UseCase-UML](https://user-images.githubusercontent.com/44058615/112758366-d822ca80-900f-11eb-8363-62ba82b57b0c.jpg)
 
 ## Questions:
 1. Can the user have an account and be sure that the password will remain confidential?
