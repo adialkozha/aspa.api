@@ -1,0 +1,31 @@
+﻿@model IEnumerable<AspaApp.Models.User>
+@{
+    if (User.Identity.IsAuthenticated == true)
+    {
+
+        Layout = "_Layout2";
+    }
+    else
+    {
+
+        Layout = "_Layout";
+    }
+
+
+    ViewData["Title"] = "User page";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>User page</p>
+@foreach (var u1 in Model.Where(p => p.Email == User.Identity.Name))
+{
+
+
+    <h4>Id : @u1.Id</h4>
+    <h4>Email: @u1.Email</h4>
+ 
+
+
+
+
+}

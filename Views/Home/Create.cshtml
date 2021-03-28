@@ -1,0 +1,45 @@
+﻿@model IEnumerable<AspaApp.Models.Product>
+
+@{
+    if (User.Identity.IsAuthenticated == true)
+    {
+
+        Layout = "_Layout2";
+    }
+    else
+    {
+
+        Layout = "_Layout";
+    }
+
+    ViewData["Title"] = "Home Page";
+
+
+
+    ViewBag.Title = "Добавление продукта";
+}
+    <form asp-action="Create2" asp-controller="Home" method="post" enctype="multipart/form-data">
+        <p>
+            <label>Название</label>
+            <input name="ProductName" class="form-control" />
+        </p>
+        <p>
+            <label>Цена</label>
+            <input name="ProductCost" class="form-control" />
+        </p>
+        <p>
+            <label>Изоброжение</label>
+            <input name="ProductImage" type="file" class="form-control" />
+        </p>
+        <p>
+            <select name="СategoryId" class="form-control">
+                <option value="1">Еда</option>
+                <option value="2">Хозяйственные товары</option>
+
+            </select>
+        </p>
+
+        <p>
+            <input type="submit" value="Добавить" />
+        </p>
+    </form>
