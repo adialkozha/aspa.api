@@ -132,4 +132,18 @@ The method for adding a product:
 ![photo_2021-03-28_22-34-28](https://user-images.githubusercontent.com/44058615/112759642-c6442600-9015-11eb-9bbc-a234532ba477.jpg)
 
 
+The method for deleting a product: 
+![photo_2021-03-28_22-43-45](https://user-images.githubusercontent.com/44058615/112759943-11126d80-9017-11eb-81ea-b04e05c37d80.jpg)
+
+The method for adding to cart:
+![photo_2021-03-28_22-44-37](https://user-images.githubusercontent.com/44058615/112759977-2e473c00-9017-11eb-9d76-856ccbff9d8a.jpg)
+
+The method for displaying data for the cart:
+![photo_2021-03-28_22-45-32](https://user-images.githubusercontent.com/44058615/112760012-4fa82800-9017-11eb-952f-812b13e81d43.jpg)
+
+The method for deleting from the cart:
+![photo_2021-03-28_22-45-32](https://user-images.githubusercontent.com/44058615/112760032-5fc00780-9017-11eb-9fe0-723a65b9c7d1.jpg)
+
+
+
 
