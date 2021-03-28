@@ -21,61 +21,63 @@ We have chosen a medium-sized project that will perform the following functions:
 - Purchase the selected items
 - Admin can add, remove: products, users and shippers
 ```
-We chose a web application for the theme of the project. Our stack for implementing are Moleculer + VueJS + MySQL. MySQL is the perfect choice for working with MoleculerJS. We chose MySQL. We use MoleculerJS because it's easy to set up a server for a web application also widely used among the developers. Also makes it possible to use the same language on the client and server. We are thinking of making a microservice architecture to make it easier to scale the project.
+ASP.NET CORE + MVC + Entity framework + Bootstrap 4.
+For the backend, we chose the ASP.NET CORE platform.
+ASP.NET Core is a technology from Microsoft designed to create various kinds of web applications, from small websites to large web portals and web services.
+
+Entity Framework Core (EF Core) is an object-oriented, lightweight, and extensible technology from Microsoft for data access. EF Core is an object-relational mapping (ORM) tool. That is, EF Core allows you to work with databases, but it represents a higher level of abstraction: EF Core allows you to abstract from the database itself and its tables and work with data regardless of the type of storage. If at the physical level we operate with tables, indexes, primary and foreign keys, but at the conceptual level that Entity Framework offers us, we are already working with objects.
+
+Entity Framework Core supports many different database systems. Thus, we can work with any DBMS through EF Core, if the required provider is available for it.
+By default, Microsoft currently provides a number of built-in providers: for working with MS SQL Server, for SQLite, for PostgreSQL. There are also providers from third party providers, for example for MySQL.
+
+Bootstrap is a free open source CSS framework for flexible front-end web development for mobile devices. It contains CSS and JavaScript based design templates for typography, forms, buttons, navigation and other interface components.
 
 Stack:
 ```
-- MoleculerJSs
-- VueJS / NuxtJS
-- MySQL
+- ASP.NET CORE 
+- MVC
+- Entity framework
+- Bootstrap 4
 ```
-Dataset size: 18.71 MB
-Structure of dataset
+There are a total of 6 tables in the project:
+```
+Products: --This table records products
+-ProductId
+-ProductName
+-ProductCost
+-ProductImage
+-CategoryId
+
+Categories --This table records the categories
+-CategoryId
+-CategoryName
+
+Baskets: --This table records selected items to the basket
+-BasketId
+-ProductId
+-UserId
+
+Orders: --This table records selected items which is going to be ordered
+-OrderId
+-User
+-Address
+-ContactPhone
+-BasketId
+
+Users: --This table records all users 
+-Id
+-Email
+-Password
+-RoleId
+
+Roles: --This table records roles of users
+-Id
+-Name
 
 ```
-- uniq_id
-- product_name
-- brand_name
-- asin
-- category
-- upc_ean_code
-- list_price
-- selling_price
-- quantity
-- model_number
-- about_product
-- product_specification
-- technical_details
-- shipping_weight
-- product_dimensions
-- image
-- variants
-- sku
-- product_url
-- stock
-- product_details
-- dimensions
-- color
-- ingredients
-- direction_to_use
-- is_amazon_seller
-- size_quantity_variant
-- product_description
-```
-We also created additional 10 tables (which you can see on our ER diagram) They are closely interconnected, thereby simplifying the task for developers. They are:
-1) Category
-2) ProductCategory
-3) ProductReview
-4) NewProductSlider
-5) Cart
-6) CartItem
-7) Order_Table
-8) OrderItem
-9) User
-10) Transaction_Table
 
-![ASPA-ER-diagram](https://user-images.githubusercontent.com/44058615/110231980-fd5a7680-7f44-11eb-8b82-d8b975a419ca.png)
-
+https://youtu.be/<https://youtube.com/watch?v=dYQW7dXVd7E&feature=share>
+[![Here the demo video of the website](https://youtube.com/watch?v=dYQW7dXVd7E&feature=share)
 
 
 ## Questions:
