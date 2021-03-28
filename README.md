@@ -42,6 +42,34 @@ Stack:
 - Bootstrap 4
 ```
 
+
+
+
+## Project Use-Case diagram and questions over the data
+### UseCase diagram
+
+![ASPA-UseCase-UML](https://user-images.githubusercontent.com/44058615/112758366-d822ca80-900f-11eb-8363-62ba82b57b0c.jpg)
+
+## Questions:
+1. Can the user have an account and be sure that the password will remain confidential?
+2. Can we filter the goods by the rating of the product?
+3. What if the product is popular enough and there are too many search results?
+4. What if the customer is not sure about the purchase and wants to see what he is paying for?
+5. If the client can not decide between the products, what can the site offer?
+6. What is the average rating of a specific good in the list of the products?
+7. What is the total price of all goods selected by the customer?
+8. Find members who bought products from the 'Baby products' or 'Toys & Games'  category?
+9. Find members who didn't buy products from the 'Toys & Games' category?
+10. The customer wants to change the category of Toys & Games to baby products.
+11. How can you help people who do not know which product is better and which is not?
+12. Show the total amount of products in the category 'Electronics'
+13. The vendedor wants to insert new product.
+14. The customer wants to remove the product from the cart. 
+15. The customer wants to filter the product by desc order.
+
+##  Data modeling and database design
+DDL and DML queries are uploaded above.
+
 There are a total of 6 tables in the project:
 ```
 Products: --This table records products
@@ -78,34 +106,6 @@ Roles: --This table records roles of users
 -Name
 
 ```
-
-
-
-
-## Project Use-Case diagram and questions over the data
-### UseCase diagram
-
-![ASPA-UseCase-UML](https://user-images.githubusercontent.com/44058615/112758366-d822ca80-900f-11eb-8363-62ba82b57b0c.jpg)
-
-## Questions:
-1. Can the user have an account and be sure that the password will remain confidential?
-2. Can we filter the goods by the rating of the product?
-3. What if the product is popular enough and there are too many search results?
-4. What if the customer is not sure about the purchase and wants to see what he is paying for?
-5. If the client can not decide between the products, what can the site offer?
-6. What is the average rating of a specific good in the list of the products?
-7. What is the total price of all goods selected by the customer?
-8. Find members who bought products from the 'Baby products' or 'Toys & Games'  category?
-9. Find members who didn't buy products from the 'Toys & Games' category?
-10. The customer wants to change the category of Toys & Games to baby products.
-11. How can you help people who do not know which product is better and which is not?
-12. Show the total amount of products in the category 'Electronics'
-13. The vendedor wants to insert new product.
-14. The customer wants to remove the product from the cart. 
-15. The customer wants to filter the product by desc order.
-
-##  Data modeling and database design
-DDL and DML queries are uploaded above.
 
 
 !!!Later we will get to know them in more detail. (:
