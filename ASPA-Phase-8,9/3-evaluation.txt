@@ -18,8 +18,14 @@ SELECT COUNT(*) FROM Users join orders on users.Id= orders.User AND Users.Name =
 
 |T'|=18+18=36 tuples
 Estimates: (225*5955*6599)/(255*255*5955*6599)= 0.00392
-Time: 0.00820392376823 seconds
+Time1: 0.004078865051269531 seconds
+Time2: 0.002999544143676758 seconds
+Time3: 0.0037343502044677734 seconds
+Time4: 0.0028057098388671875 seconds
+Time5: 0.005999326705932617 seconds
 
+AVG time: 0.0039235591888428 seconds
+--------------------------------------------------------------------------------------------------
 --(baskets * orders) * users
 SELECT count(*) from users JOIN (Baskets JOIN Orders ON Baskets.basketId = orders.basketId)
 ON users.Id= orders.User
