@@ -1,0 +1,12 @@
+--6
+SELECT COUNT(*) FROM orders, Baskets WHERE
+Baskets.basketId = orders.basketId
+AND Orders.Address = '1006 S Graywell DR';
+
+--Orders*baskets
+Select COUNT(*) from Orders JOIN Baskets ON Baskets.basketId = orders.basketId
+where Orders.Address = '1006 S Graywell DR';--2
+
+|T'|=2 tuples
+Estimates: (5955*3023)/(5955*3023*5955)=0.0001679 
+Time: 0.00094399747235 seconds

@@ -1,0 +1,15 @@
+--7
+SELECT count(*) from Products, Baskets, Users 
+WHERE Products.ProductId=Baskets.ProductId 
+AND Baskets.UserId=users.Id; --3023
+
+--(Product*Baskets)*Users
+select count (*) FROM users JOIN(Products JOIN Baskets ON Products.ProductId=Baskets.ProductId)
+ON Baskets.UserId=users.Id --3023
+
+--(Product * Baskets)
+SELECT count(*) from Products JOIN Baskets ON Products.ProductId=Baskets.ProductId; --3023
+
+|T'|=3023+3023=6046 tuples
+Estimates: (6599*3023*225)/(6599*225*3023)=1
+Time: 0.00009493894234 seconds

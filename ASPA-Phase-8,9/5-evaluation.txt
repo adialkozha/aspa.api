@@ -1,0 +1,11 @@
+--5
+SELECT Count(*) FROM orders, users WHERE orders.user=users.id 
+AND users.id='00e872ca2fc94e59982286e69f186e0e';
+
+--Orders*users
+select count(*) from orders JOIN users on orders.user=users.id 
+where users.id='00e872ca2fc94e59982286e69f186e0e';--18
+
+|T'|=18 tuples
+Estimates: (5955*225)/(225*225*5955)=0.00392
+Time: 0.0003478264192236 seconds
