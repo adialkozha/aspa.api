@@ -9,4 +9,10 @@ where Orders.Address = '1006 S Graywell DR';--2
 
 |T'|=2 tuples
 Estimates: (5955*3023)/(5955*3023*5955)=0.0001679 
-Time: 0.00094399747235 seconds
+Time1: 0.003998994827270508 seconds
+Time2: 0.0019981861114501953 seconds
+Time3: 0.003023386001586914 seconds
+Time4: 0.0020008087158203125 seconds
+Time5: 0.003002166748046875 seconds
+
+AVG time: 0.002804708480835 seconds
