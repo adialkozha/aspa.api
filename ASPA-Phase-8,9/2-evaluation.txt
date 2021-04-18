@@ -15,7 +15,13 @@ ON baskets.basketId=orders.basketId WHERE Orders.Address = '4307 E Chadwick CT';
 
 |T'|= 2+2=4 tuples
 Estimated: (3023*5955*6599)/(6599*5955*5955)=0,507
-Time: 0.00902338337869234 seconds
+Time1: 0.009023383378692634 seconds
+Time2: 0.0032494068145751953 seconds
+Time3: 0.0032901763916015625 seconds
+Time4: 0.002826213836669922 seconds
+Time5: 0.004579782485961914 seconds
+
+AVG time: 0.0045937923425282 seconds
 --------------------------------------------------
 
 --(Orders*Baskets)*Products
@@ -28,7 +34,13 @@ ON orders.basketId=baskets.basketId WHERE Orders.Address = '4307 E Chadwick CT';
 
 |T'|= 2+2=4 tuples
 Estimated: (3023*5955*6599)/(6599*5955*5955)=0,507
-Time: 0.02083487326923476 seconds
+Time1: 0.02083487326923476 seconds
+Time2: 0.016596078872680664 seconds
+Time3: 0.024274826049804688 seconds
+Time4: 0.0030355453491210938 seconds
+Time5: 0.0030531883239746094 seconds
+
+AVG time: 0.01355890236 seconds
 ----------------------------------------------------
 --(Products*baskets)*orders
 SELECT Count(*) from Orders JOIN (Products JOIN Baskets ON products.productId=baskets.productId)
@@ -41,4 +53,12 @@ ON products.productId=baskets.productId; --3023 tuples
 
 |T'| = 2+3023=3025 tuples
 Estimated: (3023*5955*6599)/(6599*5955*5955)=0,507
-Time: 0.000846627834728 seconds
+Time1: 0.004618167877197266 seconds
+Time2: 0.005532741546630859 seconds
+Time3: 0.003001689910888672 seconds
+Time4: 0.0032799243927001953 seconds
+Time5: 0.002794981002807617 seconds
+
+AVG time: 0.0038455009460449 seconds
+
+
