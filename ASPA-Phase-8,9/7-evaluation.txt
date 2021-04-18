@@ -12,4 +12,10 @@ SELECT count(*) from Products JOIN Baskets ON Products.ProductId=Baskets.Product
 
 |T'|=3023+3023=6046 tuples
 Estimates: (6599*3023*225)/(6599*225*3023)=1
-Time: 0.00009493894234 seconds
+Time1: 0.006997823715209961 seconds
+Time2: 0.002999544143676758 seconds
+Time3: 0.003999233245849609 seconds
+Time4: 0.0029935836791992188 seconds
+Time5: 0.007049560546875 seconds
+
+AVG time: 0.0048079490661621 seconds
