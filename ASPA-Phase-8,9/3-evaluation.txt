@@ -30,4 +30,10 @@ SELECT count(*) from Baskets JOIN Orders ON Baskets.basketId = orders.basketId;-
 
 |T'|=18+5955=5973 tuples
 Estimates: (225*5955*6599)/(255*255*5955*6599)= 0.00392
-Time: 0.0053408283887423 seconds
+Time1: 0.003042936325073242 seconds
+Time2: 0.0071561336517333984 seconds
+Time3: 0.0037202835083007812 seconds
+Time4: 0.0027332305908203125 seconds
+Time5: 0.0019991397857666016 seconds
+
+AVG Time: 0.0037303447723389 seconds
