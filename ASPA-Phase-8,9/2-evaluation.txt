@@ -1,0 +1,44 @@
+--2
+SELECT COUNT(*)
+FROM Products 
+JOIN Baskets ON products.productId=baskets.productId
+JOIN orders ON baskets.basketId=orders.basketId
+WHERE Orders.Address = '4307 E Chadwick CT'; --2 tuples
+
+--(Baskets*orders)*Products
+SELECT Count(*) from Products JOIN (Baskets JOIN orders ON baskets.basketId=orders.basketId AND Orders.Address = '4307 E Chadwick CT')
+ON products.productId=baskets.productId; --2 tuples
+
+--Baskets*orders
+SELECT COUNT(*) FROM Baskets JOIN orders 
+ON baskets.basketId=orders.basketId WHERE Orders.Address = '4307 E Chadwick CT'; --2tuples
+
+|T'|= 2+2=4 tuples
+Estimated: (3023*5955*6599)/(6599*5955*5955)=0,507
+Time: 0.00902338337869234 seconds
+--------------------------------------------------
+
+--(Orders*Baskets)*Products
+SELECT Count(*) from Products JOIN (orders JOIN Baskets ON orders.basketId=baskets.basketId AND Orders.Address = '4307 E Chadwick CT')
+ON products.productId=baskets.productId; --2 tuples
+
+--Baskets*orders
+SELECT COUNT(*) FROM orders JOIN Baskets 
+ON orders.basketId=baskets.basketId WHERE Orders.Address = '4307 E Chadwick CT'; --2tuples
+
+|T'|= 2+2=4 tuples
+Estimated: (3023*5955*6599)/(6599*5955*5955)=0,507
+Time: 0.02083487326923476 seconds
+----------------------------------------------------
+--(Products*baskets)*orders
+SELECT Count(*) from Orders JOIN (Products JOIN Baskets ON products.productId=baskets.productId)
+ON orders.basketId=baskets.basketId
+WHERE Orders.Address = '4307 E Chadwick CT'; --2 tuples
+
+--Products*Baskets
+SELECT COUNT(*) FROM Products JOIN Baskets 
+ON products.productId=baskets.productId; --3023 tuples
+
+|T'| = 2+3023=3025 tuples
+Estimated: (3023*5955*6599)/(6599*5955*5955)=0,507
+Time: 0.000846627834728 seconds

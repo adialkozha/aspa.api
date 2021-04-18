@@ -1,0 +1,33 @@
+--4
+select COUNT(*) from users 
+JOIN ORDERs ON users.Id= orders.User
+JOIN Baskets ON Baskets.basketId = orders.basketId
+WHERE Users.Name = 'UMER PATHAN';
+
+SELECT COUNT(*) FROM users,orders,Baskets 
+WHERE users.Id= orders.User
+AND Baskets.basketId = orders.basketId
+AND Users.Name = 'UMER PATHAN';
+
+--(Users*orders)*baskets
+SELECT count(*) from Baskets JOIN (users JOIN Orders ON users.Id= orders.User AND Users.Name = 'UMER PATHAN')
+ON Baskets.basketId = orders.basketId;--18
+
+--Users* orders
+SELECT COUNT(*) FROM Users join orders on users.Id= orders.User AND Users.Name = 'UMER PATHAN'; --18
+
+|T'|=18+18=36 tuples
+Estimates: (225*5955*6599)/(255*255*5955*6599)= 0.00392
+Time: 0.00820392376823 seconds
+
+--(baskets * orders) * users
+SELECT count(*) from users JOIN (Baskets JOIN Orders ON Baskets.basketId = orders.basketId)
+ON users.Id= orders.User
+WHERE Users.Name = 'UMER PATHAN';--18
+
+--baskets*orders
+SELECT count(*) from Baskets JOIN Orders ON Baskets.basketId = orders.basketId;--5955 tuples
+
+|T'|=18+5955=5973 tuples
+Estimates: (225*5955*6599)/(255*255*5955*6599)= 0.00392
+Time: 0.0053408283887423 seconds

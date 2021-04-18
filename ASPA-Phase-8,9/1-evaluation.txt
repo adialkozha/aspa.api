@@ -1,0 +1,15 @@
+--1
+SELECT count(*) from Products, Baskets
+where products.productId=baskets.productId;
+
+--(Baskets*products)  Baskets=6597; Products: 10001;
+SELECT count(*) from Baskets JOIN Products
+ON baskets.productId=products.productId; --3023 tuples
+
+--(Products*baskets)
+SELECT count(*) from Products JOIN Baskets
+ON products.productId=baskets.productId; --3023 tuples
+
+|T'| = 3023 tuples
+Estimates:  (6597*10001)/(6597*10001*10001)=1/10001
+Time: 0.0040233831593575 seconds
