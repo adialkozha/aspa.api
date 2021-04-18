@@ -12,4 +12,10 @@ ON products.productId=baskets.productId; --3023 tuples
 
 |T'| = 3023 tuples
 Estimates:  (6597*10001)/(6597*10001*10001)=1/10001
-Time: 0.0040233831593575 seconds
+Time1: 0.004023383159483575 seconds
+Time2: 0.008997201919555664 seconds
+Time3: 0.0033779144287109375 seconds
+Time4: 0.0030012130737304688 seconds
+Time5: 0.0035028457641601562 seconds
+
+AVG time: 0.004580511669 seconds
