@@ -1,4 +1,4 @@
 -- SQLite
---4 What if the customer is not sure about the purchase and wants to see what he is paying for?
-select Cart.user_id as 'customer', CartItem.Product_ID from Cart JOIN CartItem on Cart.Cart_id = CartItem.Cart_ID 
-where Cart.User_id= 'specific user_id';
+--4 select basket id and address of certain user
+SELECT Orders.BasketId, Orders.Address FROM orders, users WHERE orders.user=users.id 
+AND users.id='00e872ca2fc94e59982286e69f186e0e';
