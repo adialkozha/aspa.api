@@ -1,3 +1,6 @@
 -- SQLite
---1 Can the user have an account and be sure that the password will remain confidential?
-select user_id, password from user; --encryption of the password will be implemented in bcrypt, then recorded in the user's table. 
+--1 How can we output the the list of Products by userId? 
+SELECT Baskets.UserId, Products.ProductName 
+FROM Baskets JOIN Products
+ON baskets.productId=products.productId 
+WHERE Baskets.UserId='28a4a9aa9bd3640e1f9a9cf542cb25fd'; 
