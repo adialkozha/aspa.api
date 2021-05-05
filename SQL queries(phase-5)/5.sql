@@ -1,6 +1,5 @@
 -- SQLite
---5 If the client can not decide between the products, what can the site offer?
-select CartItem.Product_ID from  CartItem 
-JOIN Cart on Cart.Cart_id= CartItem.Cart_ID
-JOIN user on cart.user_id = user.user_id
-where User.user_id = cart.user_id;
+--5 Select basketId, userId, address from orders and baskets tables where address='1006 S Graywell DR'
+SELECT Baskets.BasketId, Baskets.UserId, Orders.Address FROM orders, Baskets WHERE
+Baskets.basketId = orders.basketId
+AND Orders.Address = '1006 S Graywell DR';
